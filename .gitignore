@@ -1,0 +1,6 @@
+# vim files
+*.swp
+*.swo
+
+# python files
+__pycache__/
