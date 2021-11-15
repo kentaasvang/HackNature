@@ -18,10 +18,10 @@ class BioPython:
         return "".join(re.findall("[a-zA-Z]", val))
 
     def is_mRNA(self):
-        return True if "U" in list(self.genome.upper()) else False
+        return True if "U" in list(self.genome) else False
 
     def is_DNA(self):
-        return True if "T" in list(self.genome.upper()) else False
+        return True if "T" in list(self.genome) else False
 
     def to_DNA(self):
 
